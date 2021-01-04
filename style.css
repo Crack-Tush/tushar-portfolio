@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Anton', sans-serif;
+}
+.name{
+    color: greenyellow;
+}
+.topleft{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.topright{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.topright img{
+    height: 360px;
+    margin-top: 2%;
+    width: 280px
+    padding
+    
+}
