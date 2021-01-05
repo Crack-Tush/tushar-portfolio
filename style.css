@@ -1,25 +1,93 @@
+body{
+    margin: 0;
+}
+
 h1{
+    font-size: 45px;
     font-family: 'Anton', sans-serif;
 }
 .name{
-    color: greenyellow;
+    color: rgb(78, 11, 155);
 }
-.topleft{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding: 2%;
 }
-.topright{
+
+.half-width img{
+    width: 100%;
+    border-radius: 50%;
+    margin-left:
+}
+
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+section .next-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    float: right;
+}
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon,tomato) ;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10%;
+    color: indigo;
+
+}
+.next-width{
     width: 40%;
     float: right;
     margin-left: 5%;
-    padding-left: 2%;
+    padding: 2%;
 }
-.topright img{
-    height: 360px;
-    margin-top: 2%;
-    width: 280px
-    padding
-    
+
+.next-width img{
+    width: 75%;
+    border-radius: 40%;
+    margin-left:
 }
+section{
+    height: 500px;
+}
+ .next-banner{
+     background-image: url(img/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+ }
+
+ .last-banner .half-width{
+    box-shadow: 10px 10px 40px indigo;
+    border-radius: 10px;
+    height: 80%;
+    float: left;
+
+ }
+
+ .last-banner{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+ #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(231, 108, 8), rgb(255, 153, 0));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
